@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void go_to_map(View view) {
-        Intent map = new Intent(this, MapsActivity.class);
+        Intent map = new Intent(this, WebMap.class);
         startActivity(map);
     }
 
