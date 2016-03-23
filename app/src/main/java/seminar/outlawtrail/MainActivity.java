@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+//testing the test branch
 
     public void go_to_about(View view) {
         Intent about = new Intent(this, AboutTrail.class);
