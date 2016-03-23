@@ -17,7 +17,7 @@ public class AboutTrail extends AppCompatActivity {
 
     }
 
-
+//Test again
 
     public void go_home(View view) {
         Intent home = new Intent(this, MainActivity.class);
