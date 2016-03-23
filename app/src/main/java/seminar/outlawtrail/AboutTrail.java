@@ -9,15 +9,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 public class AboutTrail extends AppCompatActivity {
-
+//testing bitbucket
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about_trail);
 
     }
-
-
 
     public void go_home(View view) {
         Intent home = new Intent(this, MainActivity.class);
