@@ -10,6 +10,7 @@ import android.view.View;
 
 public class AboutTrail extends AppCompatActivity {
 //Back to github
+    //try again
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
