@@ -39,8 +39,18 @@
         <activity android:name=".AboutTrail" >
         </activity>
         <activity
-            android:name=".WebMap"
+            android:name=".MapsActivity"
             android:label="@string/title_activity_web_map"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calendar"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>

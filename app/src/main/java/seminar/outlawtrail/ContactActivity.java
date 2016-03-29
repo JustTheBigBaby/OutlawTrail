@@ -1,22 +1,26 @@
 package seminar.outlawtrail;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 
-public class AboutTrail extends AppCompatActivity {
+public class ContactActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_trail);
-
+        setContentView(R.layout.activity_contact);
     }
 
     public void go_home(View view) {
         Intent home = new Intent(this, MainActivity.class);
         startActivity(home);
+    }
+
+    public void go_to_about(View view) {
+        Intent about = new Intent(this, AboutTrail.class);
+        startActivity(about);
     }
 
     public void go_to_map(View view) {
@@ -28,12 +32,6 @@ public class AboutTrail extends AppCompatActivity {
         Intent calendar = new Intent(this, CalendarActivity.class);
         startActivity(calendar);
     }
-
-    public void go_to_contact(View view) {
-        Intent contact = new Intent(this, ContactActivity.class);
-        startActivity(contact);
-    }
-
 
 
 }
