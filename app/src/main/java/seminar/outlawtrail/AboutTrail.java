@@ -29,6 +29,7 @@ public class AboutTrail extends AppCompatActivity {
         startActivity(calendar);
     }
 
+
     public void go_to_contact(View view) {
         Intent contact = new Intent(this, ContactActivity.class);
         startActivity(contact);

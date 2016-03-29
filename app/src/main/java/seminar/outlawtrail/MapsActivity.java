@@ -5,7 +5,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.webkit.WebView;
 
 public class MapsActivity extends AppCompatActivity {
     String mapPath = "https://www.google.com/maps/d/u/0/viewer?mid=z5cNDCbZgqkg.kReB3k9EGYyI";
@@ -13,7 +12,7 @@ public class MapsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_Maps);
+        setContentView(R.layout.activity_maps);
 
     }
 
