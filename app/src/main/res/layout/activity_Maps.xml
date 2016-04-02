@@ -2,14 +2,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    android:background="#bf956e"
-    tools:showIn="@layout/activity_maps" tools:context="seminar.outlawtrail.Maps">
+    android:background="#bf956e">
 
 
 <LinearLayout
@@ -78,14 +76,13 @@
         android:layout_marginBottom="60dp"
         android:onClick="launch_google" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Nebraska Outlaw Trail Scenic Byway 12. October 9, 10, &amp; 11 stops are highlighted Pink Diamonds-Quilt displays, Art Masks- special speakers &amp; presentations, fork-food bed-lodging, etc. Check it out and have a great scenic fall weekend."
-        android:id="@+id/textView10"
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="175dp"
+        android:id="@+id/imageView"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mapimage"/>
 
 
 </RelativeLayout>

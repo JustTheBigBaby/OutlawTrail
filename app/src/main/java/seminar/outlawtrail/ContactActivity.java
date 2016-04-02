@@ -1,12 +1,16 @@
 package seminar.outlawtrail;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 public class ContactActivity extends AppCompatActivity {
 
+    public static String facebookPath = "https://www.facebook.com/outlawtrailscenicbyway/";
+    public static String googlePath = "https://plus.google.com/106336481720792541207/posts";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,5 +37,14 @@ public class ContactActivity extends AppCompatActivity {
         startActivity(calendar);
     }
 
+    public void launch_facebook(View view){
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(facebookPath));
+        startActivity(i);
+    }
+
+    public void launch_google(View view){
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(googlePath));
+        startActivity(i);
+    }
 
 }
